@@ -12,7 +12,7 @@ for (const file of commandFiles) {
 	const command = require(`../commands/${file}`);
     client.commands.set(command.name, command);
     const date = new Date()
-    console.log("["+ moment(date).format("DD/MM/YYYY HH:mm") + "]: Command named " + command.name + " is installed")
+    console.log("["+ moment(date).format("DD/MM/YYYY HH:mm") + "]: Command named " + command.name + " is loaded")
 }
 /*              Commands                */
 
