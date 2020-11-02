@@ -5,7 +5,7 @@ module.exports = {
 	description: 'You get the avatar of the user.',
 	aliases: ['avatar'],
 	usage: 'pp @User',
-    cooldown: 5,
+    	cooldown: 5,
     /**@param {Discord.Message} message
      * @param {Array} args
      * @param {Discord.Client} client
